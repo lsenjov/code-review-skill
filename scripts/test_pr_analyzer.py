@@ -109,6 +109,17 @@ class DetectLanguageTest(unittest.TestCase):
             with self.subTest(ext=ext):
                 self.assertEqual(pr_analyzer.detect_language(f'file{ext}'), 'C++')
 
+    def test_clojure_variants(self):
+        cases = {
+            'core.clj': 'Clojure',
+            'shared.cljc': 'Clojure',
+            'app.cljs': 'ClojureScript',
+            'config.edn': 'EDN',
+        }
+        for filename, expected in cases.items():
+            with self.subTest(filename=filename):
+                self.assertEqual(pr_analyzer.detect_language(filename), expected)
+
 
 # ═══════════════════════════════════════════════════════════════
 # is_test_file
@@ -174,6 +185,12 @@ class IsConfigFileTest(unittest.TestCase):
     def test_known_toml_configs(self):
         self.assertTrue(pr_analyzer.is_config_file('Cargo.toml'))
         self.assertTrue(pr_analyzer.is_config_file('pyproject.toml'))
+
+    def test_clojure_configs(self):
+        self.assertTrue(pr_analyzer.is_config_file('deps.edn'))
+        self.assertTrue(pr_analyzer.is_config_file('project.clj'))
+        self.assertTrue(pr_analyzer.is_config_file('shadow-cljs.edn'))
+        self.assertTrue(pr_analyzer.is_config_file('bb.edn'))
 
     def test_env_files(self):
         self.assertTrue(pr_analyzer.is_config_file('.env'))

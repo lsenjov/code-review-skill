@@ -2,7 +2,7 @@
 name: code-review-skill
 description: |
   Provides comprehensive code review guidance for React 19, Vue 3, Angular 17+, Svelte 5,
-  Rust, TypeScript, Java, Java 8, PHP, Python, Django, FastAPI, Go, C#/.NET, Kotlin, Swift,
+  Rust, TypeScript, Java, Java 8, Clojure, PHP, Python, Django, FastAPI, Go, C#/.NET, Kotlin, Swift,
   NestJS, C/C++, Zig, CSS/Less/Sass, Qt, and more.
   Covers architecture review, performance review, security audit, code quality anti-patterns,
   and common bugs across all ecosystems.
@@ -193,6 +193,7 @@ Use labels to indicate priority:
 | **FastAPI** | [FastAPI Guide](reference/fastapi.md) | Depends, Pydantic v2 validation, async correctness, sessions/N+1, auth vs authorization, test-driven verification |
 | **Java** | [Java Guide](reference/java.md) | Java 17/21 新特性, Spring Boot 3, 虚拟线程, Stream/Optional |
 | **Java 8 / Legacy** | [Java 8 Guide](reference/java8.md) | Java 8, Spring Boot 2, javax.*, Stream/Optional, java.time, CompletableFuture |
+| **Clojure / ClojureScript** | [Clojure Guide](reference/clojure.md) | 数据与序列, 状态与并发, 宏, JVM/JavaScript 互操作, 测试 |
 | **PHP** | [PHP Guide](reference/php.md) | PHP 8.x type system, PDO, security review, Composer, PHPUnit/PHPStan |
 | **C# / .NET** | [C# Guide](reference/csharp.md) | C# 12 特性, 异步编程, EF Core 性能, ASP.NET Core, LINQ |
 | **Go** | [Go Guide](reference/go.md) | 错误处理, goroutine/channel, context, 接口设计 |

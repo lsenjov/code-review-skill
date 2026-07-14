@@ -96,7 +96,7 @@ It covers **20+ languages and frameworks** with over **21,000 lines** of careful
       <td>~1,020</td>
     </tr>
     <tr>
-      <td rowspan="10"><strong>Backend</strong></td>
+      <td rowspan="11"><strong>Backend</strong></td>
       <td>&#9749; Java 17/21 + Spring Boot 3</td>
       <td><code>reference/java.md</code></td>
       <td>~410</td>
@@ -105,6 +105,11 @@ It covers **20+ languages and frameworks** with over **21,000 lines** of careful
       <td>&#9749; Java 8 + Spring Boot 2</td>
       <td><code>reference/java8.md</code></td>
       <td>~580</td>
+    </tr>
+    <tr>
+      <td>Clojure / ClojureScript</td>
+      <td><code>reference/clojure.md</code></td>
+      <td>~70</td>
     </tr>
     <tr>
       <td>&#9889; FastAPI</td>
@@ -489,6 +494,7 @@ MIT &copy; [awesome-skills](https://github.com/awesome-skills)
 | | &#128311; TypeScript | `reference/typescript.md` | ~1,020 |
 | **后端** | &#9749; Java 17/21 + Spring Boot 3 | `reference/java.md` | ~410 |
 | | &#9749; Java 8 + Spring Boot 2 | `reference/java8.md` | ~580 |
+| | Clojure / ClojureScript | `reference/clojure.md` | ~70 |
 | | &#9889; FastAPI | `reference/fastapi.md` | ~590 |
 | | PHP 8.x | `reference/php.md` | ~700 |
 | | &#128230; NestJS | `reference/nestjs.md` | ~590 |
@@ -569,6 +575,7 @@ code-review-skill/
 |   +-- nestjs.md                         # NestJS 依赖注入、Guard、Interceptor、DTO
 |   +-- java.md                           # Java 17/21 & Spring Boot 3
 |   +-- java8.md                          # Java 8 & Spring Boot 2（遗留栈）
+|   +-- clojure.md                        # Clojure / ClojureScript 审查框架
 |   +-- php.md                            # PHP 8.x 类型、PDO、安全、Composer
 |   +-- python.md                         # Python async、类型注解、pytest
 |   +-- django.md                         # Django / DRF 安全、Serializer、异步视图
