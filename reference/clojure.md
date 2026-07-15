@@ -16,6 +16,8 @@
 
 ---
 
+Read any STYLE_GUIDE_CLJ.md and CODE_STRUCTURE.md in the repo.
+
 ## Data and Sequences
 
 Review immutable data transformations, collection semantics, laziness, and boundary validation.
