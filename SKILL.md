@@ -224,6 +224,7 @@ Language-agnostic patterns applicable to all code reviews:
 | **Error Handling** | [Error Handling Guide](reference/cross-cutting/error-handling-principles.md) | Fail fast, error hierarchy, 7 languages, anti-patterns, logging |
 | **Async & Concurrency** | [Concurrency Guide](reference/cross-cutting/async-concurrency-patterns.md) | Goroutines, async/await, actors, structured concurrency, 7 languages |
 | **Review Best Practices** | [Code Review Best Practices](reference/code-review-best-practices.md) | Communication, reviewer mindset, giving feedback, severity labels |
+| **Code Duplication** | [Code Duplication Guide](reference/cross-cutting/duplication.md)| Duplication detection |
 
 ## Additional Resources
 
